@@ -1,5 +1,5 @@
 class Solution:
-    def isValidSudoku(self, board: list[List[str]]) -> bool:
+    def isValidSudoku(self, board: list[list[str]]) -> bool:
         # 檢查每一行
         for i in range(9):
             if not self.is_valid_unit(board[i]):
